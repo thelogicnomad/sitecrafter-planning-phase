@@ -230,32 +230,7 @@ const WorkflowCanvas: React.FC<WorkflowCanvasProps> = ({ nodes: workflowNodes, e
             }}
           />
 
-          {/* ✅ LAYER LABELS */}
-          <Panel position="top-left" className="bg-white/90 backdrop-blur rounded-lg p-3 shadow-lg border border-slate-200">
-            <div className="text-xs font-bold text-slate-700 mb-2">Architecture Layers</div>
-            <div className="space-y-1 text-xs">
-              <div className="flex items-center gap-2">
-                <div className="w-3 h-3 bg-blue-500 rounded"></div>
-                <span>Frontend (Pages & Components)</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-3 h-3 bg-green-500 rounded"></div>
-                <span>Backend (APIs & Services)</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-3 h-3 bg-purple-500 rounded"></div>
-                <span>Database (Tables)</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-3 h-3 bg-orange-500 rounded"></div>
-                <span>Integration (External)</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-3 h-3 bg-red-500 rounded"></div>
-                <span>Auth (Security)</span>
-              </div>
-            </div>
-          </Panel>
+         
         </ReactFlow>
       </div>
 

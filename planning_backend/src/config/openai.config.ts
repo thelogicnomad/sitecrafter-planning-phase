@@ -16,7 +16,7 @@ export const openai = new OpenAI({
   }
 });
 
-export const PLANNING_MODEL = "gemini-2.5-flash";
+export const PLANNING_MODEL = "gemini-2.5-flash-lite-preview-09-2025";
 
 // import OpenAI from 'openai';
 // import dotenv from 'dotenv';

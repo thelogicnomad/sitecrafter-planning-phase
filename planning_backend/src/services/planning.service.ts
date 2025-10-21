@@ -11,6 +11,8 @@ YOUR TASK:
 2. Identify the project type (e-commerce, chatbot, social media, SaaS, healthcare, education, etc.)
 3. Determine the key features needed
 4. Design a complete, professional workflow architecture
+5. critical point try at max to give workflow which can be done and deployed backend as serverless function in vercel or just use deployment with vercel only striclty follow this .
+6. most important part dont use much external API's as we need to ask api keys are them .
 
 ANALYSIS GUIDELINES:
 - If it's about SELLING (shop, store, products, cakes, clothes): Design e-commerce with products, cart, checkout, payments, orders
@@ -151,7 +153,7 @@ OUTPUT FORMAT (PURE JSON - NO MARKDOWN):
 }
 
 CRITICAL RULES:
-1. Create 20-40 nodes based on project complexity
+1. Create 20-30 nodes based on project complexity
 2. Every node must have a clear purpose
 3. Every edge must show actual data flow
 4. Labels must be SHORT (2-3 words max)
@@ -196,7 +198,7 @@ INSTRUCTIONS:
    - Complete database schema
    - All external integrations needed
    - Proper authentication if needed
-4. Create 20-40 workflow nodes showing everything
+4. Create 20-30 workflow nodes showing everything
 5. Connect nodes with edges showing data flow
 6. Fill detailedContext with implementation details
 
